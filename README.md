@@ -1,4 +1,4 @@
-# StreamX - Real-Time Video Streaming Server
+# StreamX - Real Time Video Streaming Server
 
 🎥 A low-latency streaming server built in Rust that accepts RTMP streams and serves them as HLS to viewers.
 
@@ -38,7 +38,7 @@ Download from [FFmpeg official website](https://ffmpeg.org/download.html) and ad
 
 ### 1. Clone and Build
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DishankChauhan/streamX
 cd streamx
 cargo build --release
 ```
