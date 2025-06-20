@@ -98,18 +98,7 @@ cargo run -- \
 
 ## Architecture
 
-```
-┌─────────────────┐    RTMP     ┌─────────────────┐    HLS      ┌─────────────────┐
-│   OBS Studio    │  ──────────►│   StreamX       │  ──────────►│   Web Browser   │
-│   (Broadcaster) │             │   Server        │             │   (Viewer)      │
-└─────────────────┘             └─────────────────┘             └─────────────────┘
-                                        │
-                                        ▼
-                                 ┌─────────────┐
-                                 │   FFmpeg    │
-                                 │ (Segmenter) │
-                                 └─────────────┘
-```
+![streamX architecture](https://github.com/user-attachments/assets/c6c19d47-1e2f-4edd-acde-b7c5bbc9bf43)
 
 ### Components
 
